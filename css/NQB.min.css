@@ -2,6 +2,7 @@
  * NQB 
  * Copyright 2019-2019 NQB
  */
+
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
@@ -237,9 +238,9 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
+
 header.masthead .background {
-  background-image: url(../img/home-slide1.jpg);
-  background-color: #e0dcd5;
+  background-color: #1f232a;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -596,8 +597,8 @@ a.social:hover .social-button {
 }
 
 #particles-js {
-  background-image: url(../img/home-slide1.jpg);
-  background-color: #e0dcd5;
+  background-image: url(../img/brain.svg);
+  background-color: #1f232a;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
