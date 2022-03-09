@@ -1,8 +1,7 @@
 /*!
- * NQB 
- * Copyright 2019-2019 NQB
+ * SmartyfAI 
+ * Copyright 2019-2019 SmartyfAI
  */
-
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
@@ -13,13 +12,13 @@ p {
   font-size: 15px;
 }
 a {
-  color: #02a9f7;
+  color: #e41e2a;
 }
 a:hover {
-  color: #02577a;
+  color: #c81e2a;
 }
 .text-primary {
-  color: #02a9f7 !important;
+  color: #e41e2a !important;
 }
 
 .text-secondary {
@@ -59,17 +58,17 @@ h6 {
 }
 
 .sep {
-  background-color: #02a9f7;
+  background-color: #e41e2a;
   height: 5px;
   padding: 0;
 }
 
 ::-moz-selection {
-  background: #02a9f7;
+  background: #e41e2a;
   text-shadow: none;
 }
 ::selection {
-  background: #02a9f7;
+  background: #e41e2a;
   text-shadow: none;
 }
 img::-moz-selection {
@@ -97,20 +96,20 @@ img.stack{
   padding: 20px 40px;
 }
 .btn-primary {
-  background-color: #02a9f7;
-  border-color: #02a9f7;
+  background-color: #e41e2a;
+  border-color: #e41e2a;
 }
 
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-  background-color: #02577a !important;
-  border-color: #02577a !important;
+  background-color: #c81e2a !important;
+  border-color: #c81e2a !important;
   color: #fff;
 }
 .btn-primary:active,
 .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(55, 55, 254, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(254, 55, 55, 0.5) !important;
 }
 
 .btn-secondary{
@@ -145,12 +144,12 @@ img.stack{
   text-transform: uppercase;
   color: #fff;
   border: 0;
-  background-color: #02a9f7;
+  background-color: #e41e2a;
   font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #mainNav .navbar-brand {
-  color: #02a9f7;
+  color: #e41e2a;
   font-family: "Kaushan Script", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -158,7 +157,7 @@ img.stack{
 #mainNav .navbar-brand:active,
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
-  color: #02577a;
+  color: #c81e2a;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 90%;
@@ -171,7 +170,7 @@ img.stack{
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #02a9f7;
+  color: #e41e2a;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -212,12 +211,12 @@ img.stack{
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  background-color: #02a9f7;
+  background-color: #e41e2a;
   background-position: 0 0;
   transition: background-position 0.4s ease-in-out;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  background-color: #02577a;
+  background-color: #c81e2a;
   background-image: none;
 }
 #mainNav.navbar-shrink {
@@ -238,9 +237,9 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
-
 header.masthead .background {
-  background-color: #1f232a;
+  background-image: url(../img/home-slide1.jpg);
+  background-color: #e0dcd5;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -394,7 +393,7 @@ section#contact .form-group textarea.form-control {
   height: 248px;
 }
 section#contact .form-control:focus {
-  border-color: #02a9f7;
+  border-color: #e41e2a;
   box-shadow: none;
 }
 section#contact ::-webkit-input-placeholder {
@@ -457,7 +456,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-  background-color: #02a9f7;
+  background-color: #e41e2a;
 }
 
 a.social .social-button {
@@ -485,7 +484,7 @@ a.social .bigger-social-button {
 a.social:active .social-button,
 a.social:focus .social-button,
 a.social:hover .social-button {
-  background-color: #02a9f7;
+  background-color: #e41e2a;
 }
 
 .nopadding {
@@ -597,8 +596,8 @@ a.social:hover .social-button {
 }
 
 #particles-js {
-  background-image: url(../img/brain.svg);
-  background-color: #1f232a;
+  background-image: url(../img/home-slide1.jpg);
+  background-color: #e0dcd5;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
